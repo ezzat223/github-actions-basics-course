@@ -37,4 +37,4 @@ After you run the `yarn build` command, your code will be built into a single bu
 If you put the contents of the `dist` folder in a publicly-accessible location (say something like `http://myserver.com`),
 you should be able to open `http://myserver.com/index.html` and play your game.
 
-forth deploy test 
+five deploy test 

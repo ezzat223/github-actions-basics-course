@@ -39,10 +39,11 @@ jobs:
       - run: ls
       - 
         name: Deploy
-        uses: manleydev/butler-publish-itchio-action@master
+        uses: manleydev/butler-publish-itchio-action@v1.0.3
         env:
           BUTLER_CREDENTIALS: ${{ secrets.ITCH_IO_API_KEY }}
           CHANNEL: HTML
-          ITCH_GAME_ID: github-actions-tic-tac-toe-example
+          ITCH_GAME: github-actions-tic-tac-toe-example
           ITCH_USER: Ezzat27
-          PACKAGE: tic-tac-toe-project/dist
+          PACKAGE: tic-tac-toe-project/HTML
+          VERSION: 1
